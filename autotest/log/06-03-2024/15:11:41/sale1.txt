@@ -1,0 +1,13 @@
+| User input 0: Total sales by country by month
+| + Time visualize: 9.349156141281128
+| => Result: Success!
+|
+| User input 1: Average sales per customer by Region by year
+| + Time visualize: 9.402152061462402
+| => Result: Success!
+|
+| User input 2: Total units per state per month for the top products
+| + Time visualize: 9.527958154678345
+| => Result: Success!
+|
+| User input 3: Month on month sales growth per region

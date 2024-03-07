@@ -1,0 +1,5 @@
+|	 Average Time upload file: 0.03487110137939453
+|	 Average Average time visual: 7.903587102890015
+|	 Average Hit rate: 1.0
+|	 Test at: 2024-03-06 20:51:29.235503
+---------------------------------------------

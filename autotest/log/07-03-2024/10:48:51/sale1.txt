@@ -1,0 +1,5 @@
+| User input 0: Total sales by country by month
+| + Time visualize: 12.384073972702026
+| => Result: Success!
+|
+| User input 1: Average sales per customer by Region by year

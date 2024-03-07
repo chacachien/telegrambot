@@ -1,0 +1,9 @@
+selenium
+webdriver_manager
+pynput
+pytz
+python-telegram-bot
+asyncio
+datetime
+threading
+python-dotenv

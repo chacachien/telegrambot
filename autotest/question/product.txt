@@ -1,0 +1,7 @@
+Visualize according product group
+Price of them
+Top 5 products according price
+Visualize products that uses coffee
+Reveal variations in price ranges across product categories
+Compare retail prices across products to identify high-value or budget options
+show the relationship between product price and unit size

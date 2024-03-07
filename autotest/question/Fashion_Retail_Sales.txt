@@ -1,0 +1,8 @@
+Visualize total sales by country by year
+Review Rating for the top 10 products
+The top 5 best-selling products
+Average sales per customer by year
+Year on year sales growth per Payment Method
+Total sales by month 
+Review rating for the top product
+Total sales by  month by payment method

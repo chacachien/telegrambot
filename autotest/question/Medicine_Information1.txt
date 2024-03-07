@@ -1,0 +1,8 @@
+Visualize total sales by country by year
+Total medicine in approval year
+Visualize top product
+Visualize according nhomThuoc (group medicine)
+Total medicine per dotpheduyet
+Average products per dotpheduyet per nhomthuoc
+Visualize according the company
+Total medicine by tieuchuan

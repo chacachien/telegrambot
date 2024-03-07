@@ -1,0 +1,8 @@
+Total sales by year
+Average sales by country by year
+total sales by country
+Trend of sales by time
+The number of orders placed by state and city.
+Price of products
+Top sales by country by year
+Sales by product price

@@ -1,0 +1,2 @@
+Total sales by country by month
+Average sales per customer by Region by year

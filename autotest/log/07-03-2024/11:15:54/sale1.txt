@@ -1,0 +1,26 @@
+| User input 0: Total sales by country by month
+| + Time visualize: 9.427741289138794
+| => Result: Success!
+|
+| User input 1: Average sales per customer by Region by year
+| + Time visualize: 9.407623052597046
+| => Result: Success!
+|
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': 'https://fonts.googleapis.com/css?family=Helvetica+Neue:regular,bold,italic&subset=latin,latin-ext - Failed to load resource: the server responded with a status of 403 ()', 'source': 'network', 'timestamp': 1709784905979}
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': "https://datalace.org/ - Access to XMLHttpRequest at 'https://www.facebook.com/plugins/customer_chat/SDK/?app_id=&attribution=install_email&attribution_version=biz_inbox&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df55fc25fbcc3fcbdb%26domain%3Ddatalace.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdatalace.org%252Ff363a6406c91ba5f5%26relation%3Dparent.parent&current_url=https%3A%2F%2Fdatalace.org%2F&event_name=chat_plugin_sdk_facade_create&is_loaded_by_facade=true&loading_time=0&locale=en_US&log_id=4d0b5f6b-c238-420c-b4c4-1d5bb92872b9&page_id=107822155714865&request_time=1709784918638&sdk=joey&should_use_new_domain=false&suppress_http_code=1' from origin 'https://datalace.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", 'source': 'javascript', 'timestamp': 1709784919153}
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': 'https://www.facebook.com/plugins/customer_chat/SDK/?app_id=&attribution=install_email&attribution_version=biz_inbox&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df55fc25fbcc3fcbdb%26domain%3Ddatalace.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdatalace.org%252Ff363a6406c91ba5f5%26relation%3Dparent.parent&current_url=https%3A%2F%2Fdatalace.org%2F&event_name=chat_plugin_sdk_facade_create&is_loaded_by_facade=true&loading_time=0&locale=en_US&log_id=4d0b5f6b-c238-420c-b4c4-1d5bb92872b9&page_id=107822155714865&request_time=1709784918638&sdk=joey&should_use_new_domain=false&suppress_http_code=1 - Failed to load resource: net::ERR_FAILED', 'source': 'network', 'timestamp': 1709784919154}
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': "https://datalace.org/ - Access to XMLHttpRequest at 'https://www.facebook.com/plugins/customer_chat/SDK/?app_id=&attribution=install_email&attribution_version=biz_inbox&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df55fc25fbcc3fcbdb%26domain%3Ddatalace.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdatalace.org%252Ff363a6406c91ba5f5%26relation%3Dparent.parent&current_url=https%3A%2F%2Fdatalace.org%2F&event_name=chat_plugin_sdk_facade_load&is_loaded_by_facade=true&loading_time=532&locale=en_US&log_id=4d0b5f6b-c238-420c-b4c4-1d5bb92872b9&page_id=107822155714865&request_time=1709784919170&sdk=joey&should_use_new_domain=false&suppress_http_code=1' from origin 'https://datalace.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", 'source': 'javascript', 'timestamp': 1709784919428}
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': 'https://www.facebook.com/plugins/customer_chat/SDK/?app_id=&attribution=install_email&attribution_version=biz_inbox&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df55fc25fbcc3fcbdb%26domain%3Ddatalace.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdatalace.org%252Ff363a6406c91ba5f5%26relation%3Dparent.parent&current_url=https%3A%2F%2Fdatalace.org%2F&event_name=chat_plugin_sdk_facade_load&is_loaded_by_facade=true&loading_time=532&locale=en_US&log_id=4d0b5f6b-c238-420c-b4c4-1d5bb92872b9&page_id=107822155714865&request_time=1709784919170&sdk=joey&should_use_new_domain=false&suppress_http_code=1 - Failed to load resource: net::ERR_FAILED', 'source': 'network', 'timestamp': 1709784919429}
+| => Error from frontent (maybe not important): 
+|	 	 + {'level': 'SEVERE', 'message': 'https://fonts.googleapis.com/css?family=Helvetica+Neue:regular,bold,italic&subset=latin,latin-ext - Failed to load resource: the server responded with a status of 403 ()', 'source': 'network', 'timestamp': 1709784920919}
+|	 Time upload file: 0.017165184020996094
+|	 Average time visual: 9.41768217086792
+|	 Hit rate: 1.0
+|	 Result of this testcase: Suceess! 
+|	 Test at: 2024-03-07 11:17:10.745917
+---------------------------------------------

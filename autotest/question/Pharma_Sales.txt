@@ -1,0 +1,10 @@
+top selling product overtime
+top selling product monthly
+sales by week
+GMV
+Average sales per drug by year
+Top 5 products in 2019
+Month on month sales in 2018
+Line chart of total sales over time for each drug
+Pie chart of the market share of each drug
+I want to see the session by week of each products
