@@ -13,13 +13,14 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
+
 class TeleBot:
     def __init__(self):
         self.TOKEN = os.getenv("TOKEN")
         self.CHAT_ID = os.getenv("CHAT_ID")
         self.BOT_USERNAME = os.getenv("BOT_USERNAME")
         self.job = None
-        self.time_schedule = '11:15'
+        self.time_schedule = '13:15'
         self.minute_schedule = ':48'
 
     async def start_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -33,6 +34,8 @@ class TeleBot:
     async def check_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         await self.scheduled_job()
 
+    #async def settime_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        
     def handle_response(self, text: str) -> str:
         print('Handling response')
         if 'hello' in text.lower() or 'hi' in text.lower() or 'hey' in text.lower():
@@ -48,7 +51,7 @@ class TeleBot:
             f"Received message: {update.message.chat.id} in {message_type} with text: {text}")
         if message_type == "private":
             response = self.handle_response(text)
-        elif message_type == "group": 
+        elif message_type == "group":
             if self.BOT_USERNAME in text:
                 new_text = text.replace(self.BOT_USERNAME, "").strip()
                 response = self.handle_response(new_text)
@@ -71,7 +74,7 @@ class TeleBot:
         if (Check_Web_In.check_url()):
             noti = 'the website is still access normally'
         else:
-            noti = 'the website is down' 
+            noti = 'the website is down'
         await self.send_message(noti)
 
         if (Check_Web_In.check_login()):
@@ -102,15 +105,17 @@ class TeleBot:
 
     def run(self):
         print('Starting bot')
-        app = ApplicationBuilder().token(self.TOKEN).read_timeout(30).write_timeout(30).build()
+        app = ApplicationBuilder().token(
+            self.TOKEN).read_timeout(30).write_timeout(30).build()
         app.add_handler(CommandHandler("start", self.start_command))
         app.add_handler(CommandHandler("random", self.random_command))
         app.add_handler(CommandHandler("check", self.check_command))
         app.add_handler(MessageHandler(filters.TEXT, self.handle_message))
         # schedule.every().hour.at(self.minute_schedule,'Asia/Ho_Chi_Minh').do(
         #     lambda: self.run_async_function_sync(self.scheduled_job))
-        schedule.every().day.at(self.time_schedule).do(
-            lambda: self.run_async_function_sync(self.scheduled_job))
+        # schedule.every().day.at(self.time_schedule).do(
+        #     lambda: self.run_async_function_sync(self.scheduled_job))
+        schedule.every(10).minutes.do(lambda: self.run_async_function_sync(self.scheduled_job))
         Thread(target=self.schedule_checker).start()
         app.add_error_handler(self.error)
         app.run_polling()

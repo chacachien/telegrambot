@@ -5,5 +5,5 @@ pytz
 python-telegram-bot
 asyncio
 datetime
-threading
 python-dotenv
+schedule
